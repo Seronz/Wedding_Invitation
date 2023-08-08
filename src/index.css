@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Sacramento";
+  src: url("./assets/font/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("./assets/font/WorkSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-ThinItalic";
+  src: url("./assets/font/WorkSans-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("./assets/font/WorkSans-Regular.ttf");
+}
+
+:root {
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shodow: 0 2px 2px rgb(0 0 0 /0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "WorkSans-Regular";
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+}

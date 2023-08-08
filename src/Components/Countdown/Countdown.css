@@ -1,0 +1,26 @@
+.countdown-hari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-hari p {
+  background-color: var(--pink);
+  margin: 10px;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: "WorkSans-Bold";
+}
+
+@media (max-width: 767px) {
+  .countdown-hari p {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1rem;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  color: var(--pink);
+  background-color: white;
+  box-shadow: var(--shodow);
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--pink);
+  color: white;
+}
