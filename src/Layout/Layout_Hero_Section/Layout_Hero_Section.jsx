@@ -1,8 +1,8 @@
+import "./Layout_Hero_Section.css";
 import Buttons from "../../Components/Button/Button";
 import Countdowns from "../../Components/Countdown/Countdown";
-import "./Hero_Section.css";
 
-const Hero_Section = () => {
+const Layout_Hero_Section = () => {
   return (
     <div
       id="Hero"
@@ -19,4 +19,4 @@ const Hero_Section = () => {
   );
 };
 
-export default Hero_Section;
+export default Layout_Hero_Section;

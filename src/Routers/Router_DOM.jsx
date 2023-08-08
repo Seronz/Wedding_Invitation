@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Hero_Section from "../Pages/Hero_Section/Hero_Section";
+import Hero_Section from "../Pages/Hero_Section/Landing_Page";
 
 const Router_DOM = () => {
   return (
